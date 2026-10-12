@@ -1,0 +1,11 @@
+# OpenYAMM source assets (submodule of the main repository at assets_source/; see tools/ASSET_STORAGE.md there).
+# Local-only banks: the restored x2 sprite creature bank and its final sprite exports (cooked atlases are in the main
+# repository; the 3D models replace them) and the archive of original textures.
+/creatures/
+/engine/sprites_new/
+/textures/native_mm6_mm8/
+# Cook receipts depend on the local cooker binary.
+/.cook-cache/
+# Raw CC0 downloads (sources.yml records each origin); the packed material PNGs beside them are the sources.
+/engine/terrain_materials/*/download/
+*.tmp

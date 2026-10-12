@@ -1,0 +1,181 @@
+# Downloaded CC0 photoscanned ground materials for the materials terrain style (tools/terrain_materials.py).
+# Each entry packs its maps into albedo_height.png (RGB colour, A height) and normal_ao_rough.png (RG OpenGL
+# normal XY, B ambient occlusion, A roughness). physical_size_m is the real-world width of one texture repeat.
+version: 1
+materials:
+  grass_meadow:
+    license: CC0 1.0
+    origin: https://ambientcg.com/view?id=Grass004
+    physical_size_m: 2.0
+    maps:
+      color: download/Grass004_2K-PNG_Color.png
+      normal_gl: download/Grass004_2K-PNG_NormalGL.png
+      height: download/Grass004_2K-PNG_Displacement.png
+      ao: download/Grass004_2K-PNG_AmbientOcclusion.png
+      roughness: download/Grass004_2K-PNG_Roughness.png
+  dirt_cracked:
+    license: CC0 1.0
+    origin: https://polyhaven.com/a/cracked_red_ground
+    physical_size_m: 2.0
+    maps:
+      color: download/cracked_red_ground_diff_2k.png
+      normal_gl: download/cracked_red_ground_nor_gl_2k.png
+      height: download/cracked_red_ground_disp_2k.png
+      arm: download/cracked_red_ground_arm_2k.png
+  road_flagstone:
+    license: CC0 1.0
+    origin: https://polyhaven.com/a/stone_pathway
+    physical_size_m: 2.0
+    maps:
+      color: download/stone_pathway_diff_2k.png
+      normal_gl: download/stone_pathway_nor_gl_2k.png
+      height: download/stone_pathway_disp_2k.png
+      arm: download/stone_pathway_arm_2k.png
+  rock_ground:
+    license: CC0 1.0
+    origin: https://polyhaven.com/a/rock_ground_02
+    physical_size_m: 3.0
+    maps:
+      color: download/rock_ground_02_diff_2k.png
+      normal_gl: download/rock_ground_02_nor_gl_2k.png
+      height: download/rock_ground_02_disp_2k.png
+      arm: download/rock_ground_02_arm_2k.png
+  rock_cliff:
+    license: CC0 1.0
+    origin: https://polyhaven.com/a/rock_face
+    physical_size_m: 2.38
+    maps:
+      color: download/rock_face_diff_2k.png
+      normal_gl: download/rock_face_nor_gl_2k.png
+      height: download/rock_face_disp_2k.png
+      arm: download/rock_face_arm_2k.png
+  grass_patchy:
+    license: CC0 1.0
+    origin: https://ambientcg.com/view?id=Ground037
+    physical_size_m: 2.0
+    maps:
+      color: download/Ground037_2K-PNG_Color.png
+      normal_gl: download/Ground037_2K-PNG_NormalGL.png
+      height: download/Ground037_2K-PNG_Displacement.png
+      ao: download/Ground037_2K-PNG_AmbientOcclusion.png
+      roughness: download/Ground037_2K-PNG_Roughness.png
+  sand_ripples:
+    license: CC0 1.0
+    origin: https://ambientcg.com/view?id=Ground097
+    physical_size_m: 2.0
+    maps:
+      color: download/Ground097_2K-PNG_Color.png
+      normal_gl: download/Ground097_2K-PNG_NormalGL.png
+      height: download/Ground097_2K-PNG_Displacement.png
+      ao: download/Ground097_2K-PNG_AmbientOcclusion.png
+      roughness: download/Ground097_2K-PNG_Roughness.png
+  road_pebbles:
+    license: CC0 1.0
+    origin: https://polyhaven.com/a/large_pebbles
+    physical_size_m: 2.0
+    maps:
+      color: download/large_pebbles_diff_2k.png
+      normal_gl: download/large_pebbles_nor_gl_2k.png
+      height: download/large_pebbles_disp_2k.png
+      arm: download/large_pebbles_arm_2k.png
+  soil:
+    license: CC0 1.0
+    origin: https://ambientcg.com/view?id=Ground048
+    physical_size_m: 1.4
+    maps:
+      color: download/Ground048_2K-PNG_Color.png
+      normal_gl: download/Ground048_2K-PNG_NormalGL.png
+      height: download/Ground048_2K-PNG_Displacement.png
+      ao: download/Ground048_2K-PNG_AmbientOcclusion.png
+      roughness: download/Ground048_2K-PNG_Roughness.png
+  soil_stony:
+    license: CC0 1.0
+    origin: https://polyhaven.com/a/rocky_trail
+    physical_size_m: 2.0
+    maps:
+      color: download/rocky_trail_diff_2k.png
+      normal_gl: download/rocky_trail_nor_gl_2k.png
+      height: download/rocky_trail_disp_2k.png
+      arm: download/rocky_trail_arm_2k.png
+  snow:
+    license: CC0 1.0
+    origin: https://ambientcg.com/view?id=Snow008A
+    physical_size_m: 2.0
+    maps:
+      color: download/Snow008A_2K-PNG_Color.png
+      normal_gl: download/Snow008A_2K-PNG_NormalGL.png
+      height: download/Snow008A_2K-PNG_Displacement.png
+      ao: download/Snow008A_2K-PNG_AmbientOcclusion.png
+      roughness: download/Snow008A_2K-PNG_Roughness.png
+  # Moss cushions with murky standing water in the broad hollows, like the native swamp tiles.
+  swamp:
+    license: CC0 1.0
+    origin: https://ambientcg.com/view?id=Moss004
+    physical_size_m: 2.0
+    pools:
+      coverage: 0.48
+      scale: 0.02
+      color: [0.06, 0.13, 0.12]
+    maps:
+      color: download/Moss004_2K-PNG_Color.png
+      normal_gl: download/Moss004_2K-PNG_NormalGL.png
+      height: download/Moss004_2K-PNG_Displacement.png
+      ao: download/Moss004_2K-PNG_AmbientOcclusion.png
+      roughness: download/Moss004_2K-PNG_Roughness.png
+  rock_layered:
+    license: CC0 1.0
+    origin: https://ambientcg.com/view?id=Rock023
+    physical_size_m: 2.0
+    maps:
+      color: download/Rock023_2K-PNG_Color.png
+      normal_gl: download/Rock023_2K-PNG_NormalGL.png
+      height: download/Rock023_2K-PNG_Displacement.png
+      ao: download/Rock023_2K-PNG_AmbientOcclusion.png
+      roughness: download/Rock023_2K-PNG_Roughness.png
+  rock_red:
+    license: CC0 1.0
+    origin: https://ambientcg.com/view?id=Rock061
+    physical_size_m: 2.0
+    maps:
+      color: download/Rock061_2K-PNG_Color.png
+      normal_gl: download/Rock061_2K-PNG_NormalGL.png
+      height: download/Rock061_2K-PNG_Displacement.png
+      ao: download/Rock061_2K-PNG_AmbientOcclusion.png
+      roughness: download/Rock061_2K-PNG_Roughness.png
+  gravel_volcanic:
+    license: CC0 1.0
+    origin: https://ambientcg.com/view?id=Gravel024
+    physical_size_m: 1.5
+    maps:
+      color: download/Gravel024_2K-PNG_Color.png
+      normal_gl: download/Gravel024_2K-PNG_NormalGL.png
+      height: download/Gravel024_2K-PNG_Displacement.png
+      ao: download/Gravel024_2K-PNG_AmbientOcclusion.png
+      roughness: download/Gravel024_2K-PNG_Roughness.png
+  sand_flat:
+    license: CC0 1.0
+    origin: https://polyhaven.com/a/dense_sand
+    physical_size_m: 1.8
+    maps:
+      color: download/dense_sand_diff_2k.png
+      normal_gl: download/dense_sand_nor_gl_2k.png
+      height: download/dense_sand_disp_2k.png
+      arm: download/dense_sand_arm_2k.png
+  mud_cracked:
+    license: CC0 1.0
+    origin: https://polyhaven.com/a/mud_cracked_dry_03
+    physical_size_m: 1.5
+    maps:
+      color: download/mud_cracked_dry_03_diff_2k.png
+      normal_gl: download/mud_cracked_dry_03_nor_gl_2k.png
+      height: download/mud_cracked_dry_03_disp_2k.png
+      arm: download/mud_cracked_dry_03_arm_2k.png
+  ground_crust:
+    license: CC0 1.0
+    origin: https://polyhaven.com/a/dry_ground_01
+    physical_size_m: 4.0
+    maps:
+      color: download/dry_ground_01_diff_2k.png
+      normal_gl: download/dry_ground_01_nor_gl_2k.png
+      height: download/dry_ground_01_disp_2k.png
+      arm: download/dry_ground_01_arm_2k.png

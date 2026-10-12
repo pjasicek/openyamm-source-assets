@@ -1,0 +1,7 @@
+# Binary art: no line-ending conversion, no text diffs.
+* -text
+*.yml text
+*.yaml text
+*.json text
+*.md text
+*.txt text
