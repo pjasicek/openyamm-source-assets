@@ -7,6 +7,7 @@ materials:
     license: CC0 1.0
     origin: https://ambientcg.com/view?id=Grass004
     physical_size_m: 2.0
+    wet_sheen: 0.25
     maps:
       color: download/Grass004_2K-PNG_Color.png
       normal_gl: download/Grass004_2K-PNG_NormalGL.png
@@ -26,6 +27,7 @@ materials:
     license: CC0 1.0
     origin: https://polyhaven.com/a/stone_pathway
     physical_size_m: 2.0
+    specular: 0.5
     maps:
       color: download/stone_pathway_diff_2k.png
       normal_gl: download/stone_pathway_nor_gl_2k.png
@@ -35,6 +37,7 @@ materials:
     license: CC0 1.0
     origin: https://polyhaven.com/a/rock_ground_02
     physical_size_m: 3.0
+    specular: 0.6
     maps:
       color: download/rock_ground_02_diff_2k.png
       normal_gl: download/rock_ground_02_nor_gl_2k.png
@@ -44,6 +47,7 @@ materials:
     license: CC0 1.0
     origin: https://polyhaven.com/a/rock_face
     physical_size_m: 2.38
+    specular: 0.7
     maps:
       color: download/rock_face_diff_2k.png
       normal_gl: download/rock_face_nor_gl_2k.png
@@ -53,6 +57,7 @@ materials:
     license: CC0 1.0
     origin: https://ambientcg.com/view?id=Ground037
     physical_size_m: 2.0
+    wet_sheen: 0.25
     maps:
       color: download/Ground037_2K-PNG_Color.png
       normal_gl: download/Ground037_2K-PNG_NormalGL.png
@@ -73,6 +78,7 @@ materials:
     license: CC0 1.0
     origin: https://polyhaven.com/a/large_pebbles
     physical_size_m: 2.0
+    specular: 0.4
     maps:
       color: download/large_pebbles_diff_2k.png
       normal_gl: download/large_pebbles_nor_gl_2k.png
@@ -92,6 +98,7 @@ materials:
     license: CC0 1.0
     origin: https://polyhaven.com/a/rocky_trail
     physical_size_m: 2.0
+    specular: 0.2
     maps:
       color: download/rocky_trail_diff_2k.png
       normal_gl: download/rocky_trail_nor_gl_2k.png
@@ -101,6 +108,7 @@ materials:
     license: CC0 1.0
     origin: https://ambientcg.com/view?id=Snow008A
     physical_size_m: 2.0
+    specular: 0.15
     maps:
       color: download/Snow008A_2K-PNG_Color.png
       normal_gl: download/Snow008A_2K-PNG_NormalGL.png
@@ -112,6 +120,7 @@ materials:
     license: CC0 1.0
     origin: https://ambientcg.com/view?id=Moss004
     physical_size_m: 2.0
+    specular: 0.6
     pools:
       coverage: 0.48
       scale: 0.02
@@ -126,6 +135,7 @@ materials:
     license: CC0 1.0
     origin: https://ambientcg.com/view?id=Rock023
     physical_size_m: 2.0
+    specular: 0.8
     maps:
       color: download/Rock023_2K-PNG_Color.png
       normal_gl: download/Rock023_2K-PNG_NormalGL.png
@@ -136,6 +146,7 @@ materials:
     license: CC0 1.0
     origin: https://ambientcg.com/view?id=Rock061
     physical_size_m: 2.0
+    specular: 0.6
     maps:
       color: download/Rock061_2K-PNG_Color.png
       normal_gl: download/Rock061_2K-PNG_NormalGL.png
@@ -146,6 +157,7 @@ materials:
     license: CC0 1.0
     origin: https://ambientcg.com/view?id=Gravel024
     physical_size_m: 1.5
+    specular: 0.5
     maps:
       color: download/Gravel024_2K-PNG_Color.png
       normal_gl: download/Gravel024_2K-PNG_NormalGL.png
