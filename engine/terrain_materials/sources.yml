@@ -191,3 +191,33 @@ materials:
       normal_gl: download/dry_ground_01_nor_gl_2k.png
       height: download/dry_ground_01_disp_2k.png
       arm: download/dry_ground_01_arm_2k.png
+  glass_obsidian:
+    license: CC0 1.0
+    maps:
+      ao: download/Rock035_2K-PNG_AmbientOcclusion.png
+      color: download/Rock035_2K-PNG_Color.png
+      height: download/Rock035_2K-PNG_Displacement.png
+      normal_gl: download/Rock035_2K-PNG_NormalGL.png
+      roughness: download/Rock035_2K-PNG_Roughness.png
+    origin: https://ambientcg.com/view?id=Rock035
+    physical_size_m: 2.0
+  ceramic_plating:
+    license: CC0 1.0
+    maps:
+      ao: download/Tiles142_2K-PNG_AmbientOcclusion_derived.png   # derived from the displacement (no AO in the pack)
+      color: download/Tiles142_2K-PNG_Color.png
+      height: download/Tiles142_2K-PNG_Displacement.png
+      normal_gl: download/Tiles142_2K-PNG_NormalGL.png
+      roughness: download/Tiles142_2K-PNG_Roughness.png
+    origin: https://ambientcg.com/view?id=Tiles142
+    physical_size_m: 2.0
+  creep_resin:
+    license: CC0 1.0
+    maps:
+      ao: download/Lava001_2K-PNG_AmbientOcclusion_derived.png   # derived from the displacement (no AO in the pack)
+      color: download/Lava001_2K-PNG_Color.png
+      height: download/Lava001_2K-PNG_Displacement.png
+      normal_gl: download/Lava001_2K-PNG_NormalGL.png
+      roughness: download/Lava001_2K-PNG_Roughness.png
+    origin: https://ambientcg.com/view?id=Lava001
+    physical_size_m: 2.0
