@@ -1,0 +1,2 @@
+# Preserve the 2K body and 1K head in the padded 4096x2048 atlas.
+max_size: {desktop: 4096, android: 2048}
