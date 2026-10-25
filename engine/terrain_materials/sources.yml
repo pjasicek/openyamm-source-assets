@@ -221,3 +221,64 @@ materials:
       roughness: download/Lava001_2K-PNG_Roughness.png
     origin: https://ambientcg.com/view?id=Lava001
     physical_size_m: 2.0
+  resin_paving:                 # the Crown's resin paving (hes_out4; level_generation/projects/hesper_out4/prepare_resin_paving.py
+                                # tints it violet-black and paints its joints violet after prepare)
+    license: CC0 1.0
+    maps:
+      color: download/slate_floor_diff_2k.png
+      normal_gl: download/slate_floor_nor_gl_2k.png
+      height: download/slate_floor_disp_2k.png
+      arm: download/slate_floor_arm_2k.png
+    origin: https://polyhaven.com/a/slate_floor
+    physical_size_m: 2.29
+    specular: 0.6
+  slag_crust:                   # the Scour's slag crust (hes_out2; THE_SCOUR.md, Ground): charcoal fractured rock, tinted
+                                # brown-black in the map's slot file
+    license: CC0 1.0
+    maps:
+      color: download/dark_rock_diff_2k.png
+      normal_gl: download/dark_rock_nor_gl_2k.png
+      height: download/dark_rock_disp_2k.png
+      arm: download/dark_rock_arm_2k.png
+    origin: https://polyhaven.com/a/dark_rock
+    physical_size_m: 2.42
+    specular: 0.6
+  slag_molten:                  # the Scour's molten seams (hes_out2): grey crust split by orange veins; the veins glow
+    license: CC0 1.0
+    maps:
+      ao: download/Lava005_2K-PNG_AmbientOcclusion_derived.png   # derived from the displacement (no AO in the pack)
+      color: download/Lava005_2K-PNG_Color.png
+      height: download/Lava005_2K-PNG_Displacement.png
+      normal_gl: download/Lava005_2K-PNG_NormalGL.png
+      roughness: download/Lava005_2K-PNG_Roughness.png
+    origin: https://ambientcg.com/view?id=Lava005
+    physical_size_m: 2.0
+    emissive:
+      color: [1.6, 0.75, 0.25]
+      threshold: 0.35
+  creep_wet:                    # the Brood Spires' wet creep (hes_out3; BROOD_SPIRES.md, Ground): fresh glossy resin, the
+                                # Kreegan resin roads; its brighter orange veins glow. Lava003 (the design's alternative:
+                                # Lava005 is hot almost everywhere and is the Scour's slag_molten)
+    license: CC0 1.0
+    maps:
+      ao: download/Lava003_2K-PNG_AmbientOcclusion_derived.png   # derived from the displacement (no AO in the pack)
+      color: download/Lava003_2K-PNG_Color.png
+      height: download/Lava003_2K-PNG_Displacement.png
+      normal_gl: download/Lava003_2K-PNG_NormalGL.png
+      roughness: download/Lava003_2K-PNG_Roughness.png
+    origin: https://ambientcg.com/view?id=Lava003
+    physical_size_m: 2.0
+    emissive:
+      color: [1.2, 0.6, 0.25]
+      threshold: 0.25
+  brood_membrane:               # the Brood Spires' egg membrane (hes_out3): a scaled glossy hide tinted violet in the
+                                # map's slot file; no glow (no CC0 scan shows eggs: the egg mounds carry them). Leather008
+    license: CC0 1.0
+    maps:
+      ao: download/Leather008_2K-PNG_AmbientOcclusion_derived.png   # derived from the displacement (no AO in the pack)
+      color: download/Leather008_2K-PNG_Color.png
+      height: download/Leather008_2K-PNG_Displacement.png
+      normal_gl: download/Leather008_2K-PNG_NormalGL.png
+      roughness: download/Leather008_2K-PNG_Roughness.png
+    origin: https://ambientcg.com/view?id=Leather008
+    physical_size_m: 1.0
