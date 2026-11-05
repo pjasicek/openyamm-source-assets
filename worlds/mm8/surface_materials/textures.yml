@@ -1,0 +1,24 @@
+# Surface material settings per texture (level_generation/surface_materials/mat.py writes wrap;
+# depth and painted_shading are review overrides, tools/surface_materials.py).
+bdoorb:
+  wrap: ''
+btrima1:
+  wrap: uv
+btrimb1:
+  wrap: uv
+btrimb2:
+  wrap: uv
+bwooda1:
+  wrap: uv
+bwooda2:
+  wrap: ''
+bwoodb1:
+  wrap: uv
+bwoodb3:
+  wrap: u
+bwoodb4:
+  wrap: u
+solid01:
+  wrap: uv
+t66a12d:
+  wrap: uv

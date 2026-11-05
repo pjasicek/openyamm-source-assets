@@ -1,0 +1,299 @@
+# Surface material settings per texture (level_generation/surface_materials/mat.py writes wrap;
+# depth and painted_shading are review overrides, tools/surface_materials.py).
+armorpor:
+  wrap: ''
+bank:
+  wrap: ''
+bdksv16a:
+  wrap: uv
+bemdk3:
+  wrap: uv
+bemdorb:
+  wrap: ''
+bemh32a:
+  wrap: uv
+bemhwal:
+  wrap: uv
+bemhwal1:
+  wrap: uv
+bemob1:
+  wrap: uv
+bemob1b:
+  wrap: uv
+bemob2:
+  wrap: uv
+bemob2b:
+  wrap: uv
+bemstara:
+  wrap: uv
+bemstarb:
+  wrap: u
+bemstart:
+  wrap: uv
+bemstra1:
+  wrap: uv
+bemstrt1:
+  wrap: uv
+bemsv16a:
+  wrap: u
+bemsv32a:
+  wrap: uv
+bemtila:
+  depth: 0.6
+  wrap: uv
+bemv:
+  wrap: uv
+bemv32a:
+  wrap: uv
+bemv32b:
+  wrap: uv
+bemvwal:
+  wrap: uv
+bemvwal1:
+  wrap: uv
+blksmmid:
+  wrap: ''
+cbeam2:
+  wrap: v
+cbeam5:
+  wrap: uv
+cbmxbrck:
+  wrap: uv
+cbrdbrck:
+  wrap: uv
+cedhwal1:
+  wrap: uv
+cedsqrdk:
+  wrap: uv
+cedvwal1:
+  wrap: uv
+cedvwal2:
+  wrap: uv
+crdflr3:
+  wrap: uv
+crdflr4:
+  wrap: uv
+crside:
+  wrap: ''
+d2lgdor:
+  wrap: u
+elem-all:
+  wrap: ''
+granite:
+  wrap: uv
+magicpor:
+  wrap: ''
+mystrya:
+  wrap: uv
+ns8s00:
+  wrap: ''
+ns8s01:
+  wrap: uv
+ns8s02:
+  wrap: uv
+ns8s03:
+  wrap: v
+ns8s04:
+  wrap: ''
+ns8s05:
+  wrap: ''
+ns8s06:
+  wrap: uv
+ns8s07:
+  wrap: u
+ns8s08:
+  wrap: u
+ns8s09:
+  wrap: uv
+ns8s10:
+  wrap: uv
+ns8s11:
+  wrap: uv
+oflr:
+  wrap: uv
+oflr1:
+  wrap: uv
+orflr1:
+  wrap: uv
+pbrdr:
+  wrap: ''
+pbrle:
+  wrap: v
+pbrre:
+  wrap: v
+pbrst:
+  wrap: u
+pbrwn:
+  wrap: uv
+pbtrm:
+  wrap: uv
+plruf01:
+  wrap: uv
+pxshings:
+  wrap: uv
+pxstrdr:
+  wrap: ''
+pxstrle:
+  wrap: v
+pxstrlew:
+  wrap: ''
+pxstrre:
+  wrap: v
+pxstrst:
+  wrap: uv
+pxstrwb:
+  wrap: v
+pxstrwbx:
+  wrap: uv
+rblbw:
+  wrap: uv
+rblle:
+  wrap: ''
+rblmt:
+  wrap: ''
+rblre:
+  wrap: ''
+rblst:
+  wrap: uv
+rblst1:
+  wrap: ''
+rhctr:
+  wrap: uv
+rhctrw:
+  wrap: uv
+rhdr1:
+  wrap: ''
+rhdr2:
+  wrap: ''
+rhle:
+  wrap: uv
+rhre:
+  wrap: v
+self-all:
+  wrap: ''
+sidert32:
+  wrap: ''
+sign128:
+  wrap: ''
+solid10:
+  wrap: uv
+stables:
+  wrap: ''
+storemid:
+  wrap: ''
+t1c2:
+  wrap: uv
+t1c3:
+  wrap: uv
+t1d1:
+  wrap: ''
+t1d3:
+  wrap: u
+t1f1:
+  wrap: uv
+t1swbd:
+  wrap: ''
+t1swbu:
+  wrap: uv
+t1w11a:
+  wrap: uv
+t1wl1cts:
+  wrap: u
+t1wl1lea:
+  wrap: ''
+t1wl1lea1:
+  wrap: ''
+t1wl1rea:
+  wrap: ''
+t1wl4ctr:
+  wrap: ''
+t1wl4spb:
+  wrap: ''
+t1wl4w:
+  wrap: ''
+t1wl5ct:
+  wrap: u
+t1wl5lea:
+  wrap: u
+t1wl5lec:
+  wrap: u
+t1wl5rea:
+  wrap: ''
+t3c2:
+  wrap: uv
+tav128wl:
+  wrap: uv
+tavctr:
+  wrap: uv
+tavldyle:
+  wrap: ''
+tavldyre:
+  wrap: ''
+tavle:
+  wrap: uv
+tavlgdr:
+  wrap: u
+tavmid:
+  wrap: ''
+tavre:
+  wrap: uv
+tavrf:
+  wrap: uv
+tavsmdr:
+  wrap: ''
+tavwctr:
+  wrap: uv
+tavwle:
+  wrap: v
+tavwre:
+  wrap: v
+tdoora:
+  wrap: uv
+tdoorb:
+  wrap: ''
+tdortrim:
+  wrap: uv
+tewd:
+  wrap: uv
+tewdw:
+  wrap: ''
+tewld:
+  wrap: v
+tewls:
+  wrap: v
+tewm:
+  wrap: v
+tewrd:
+  wrap: uv
+tewrs:
+  wrap: uv
+tews:
+  wrap: uv
+tewsw:
+  wrap: u
+thctr:
+  wrap: uv
+thctrw1:
+  wrap: uv
+thctrw2:
+  wrap: ''
+thle:
+  wrap: v
+thlgdr:
+  wrap: ''
+thre:
+  wrap: v
+thsmdr:
+  wrap: ''
+thuniq1:
+  wrap: ''
+thuniq2:
+  wrap: ''
+top32:
+  wrap: u
+training:
+  wrap: ''
+trim:
+  wrap: uv
+wood012:
+  wrap: uv

@@ -1,0 +1,4 @@
+# Surface material settings per texture (level_generation/surface_materials/mat.py writes wrap;
+# depth and painted_shading are review overrides, tools/surface_materials.py).
+7solid01:
+  wrap: uv
