@@ -1,0 +1,6 @@
+# Head colour at 1K (CLAUDE_CREATURE_TEXTURES.md head set; MM9 size pass 2026-11-06): the 2K level is only
+# sampled when a face nearly fills the screen.
+images:
+  pboy_tp_head_basecolor: {max_size: 1024}
+  pboyb_tp_head_basecolor: {max_size: 1024}
+  pboye_tp_head_basecolor: {max_size: 1024}
