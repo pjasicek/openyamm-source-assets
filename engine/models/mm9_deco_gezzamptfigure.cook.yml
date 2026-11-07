@@ -1,0 +1,4 @@
+# The creature's head colour at 1K, as in its worlds/mm9/models sidecar (MM9 size pass 2026-11-06): a
+# texture shared by two models cooks at the larger size of its uses.
+images:
+  gezz_head_final: {max_size: 1024}
