@@ -1,0 +1,4 @@
+# Head colour at 1K (CLAUDE_CREATURE_TEXTURES.md head set; MM9 size pass 2026-11-06): the 2K level is only
+# sampled when a face nearly fills the screen.
+images:
+  ghoul_head_basecolor_final: {max_size: 1024}
