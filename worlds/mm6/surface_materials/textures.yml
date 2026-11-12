@@ -1,15 +1,53 @@
 # Surface material settings per texture (level_generation/surface_materials/mat.py writes wrap;
 # depth and painted_shading are review overrides, tools/surface_materials.py).
+6voltyl:
+  wrap: uv
+armormid:
+  wrap: ''
 armorpor:
+  wrap: ''
+armorrch:
   wrap: ''
 bank:
   wrap: ''
+bcsctr:
+  wrap: u
+bcsrf:
+  wrap: uv
+bdksh16a:
+  wrap: uv
+bdksh16b:
+  wrap: uv
+bdksh16c:
+  wrap: uv
+bdksh32a:
+  wrap: uv
+bdksh32b:
+  wrap: uv
 bdksv16a:
+  wrap: uv
+bdksv16b:
+  wrap: uv
+bdksv32b:
+  wrap: uv
+bdksv32c:
+  wrap: uv
+bembllg:
+  wrap: uv
+bemdk2:
   wrap: uv
 bemdk3:
   wrap: uv
+bemdk4:
+  wrap: uv
 bemdorb:
   wrap: ''
+bemdord:
+  wrap: u
+bemh:
+  wrap: uv
+bemh16b:
+  wrap: uv
 bemh32a:
   wrap: uv
 bemhwal:
@@ -23,6 +61,8 @@ bemob1b:
 bemob2:
   wrap: uv
 bemob2b:
+  wrap: uv
+bemsh32b:
   wrap: uv
 bemstara:
   wrap: uv
@@ -38,6 +78,8 @@ bemsv16a:
   wrap: u
 bemsv32a:
   wrap: uv
+bemsv32c:
+  wrap: v
 bemtila:
   depth: 0.6
   wrap: uv
@@ -53,15 +95,29 @@ bemvwal1:
   wrap: uv
 blksmmid:
   wrap: ''
+bmplnk:
+  wrap: uv
+bmsctr:
+  wrap: uv
 cbeam2:
   wrap: v
 cbeam5:
   wrap: uv
+cbeam6:
+  wrap: ''
+cbmdk1:
+  wrap: ''
 cbmxbrck:
   wrap: uv
 cbrdbrck:
   wrap: uv
+cbsm:
+  wrap: uv
+cedhwal:
+  wrap: uv
 cedhwal1:
+  wrap: uv
+cedhwal2:
   wrap: uv
 cedsqrdk:
   wrap: uv
@@ -69,19 +125,205 @@ cedvwal1:
   wrap: uv
 cedvwal2:
   wrap: uv
+ch1bakb:
+  wrap: ''
+ch1bkre:
+  wrap: ''
+ch1frle:
+  wrap: u
+ch1frntb:
+  wrap: u
+ch1frre:
+  wrap: u
+ch1side:
+  wrap: uv
+ch1topb:
+  wrap: u
+ch1topre:
+  wrap: u
+ch2bakb:
+  wrap: ''
+ch2frle:
+  wrap: ''
+ch2frntb:
+  wrap: ''
+ch2side:
+  wrap: ''
+ch2topb:
+  wrap: ''
+ch4bakb:
+  wrap: ''
+ch4bakle:
+  wrap: ''
+ch4frle:
+  wrap: ''
+ch4frntb:
+  wrap: ''
+ch4side:
+  wrap: ''
+ch4top:
+  wrap: ''
+ch4tople:
+  wrap: u
+ch4topre:
+  wrap: u
+ch4tplev:
+  wrap: v
 crdflr3:
   wrap: uv
 crdflr4:
   wrap: uv
 crside:
   wrap: ''
+csaro128:
+  wrap: uv
+csbr128:
+  wrap: uv
+csde128:
+  wrap: v
+csdoor:
+  wrap: ''
+csle128:
+  wrap: v
+csle128w:
+  wrap: v
+csre128:
+  wrap: v
+csre128w:
+  wrap: v
+cstr128:
+  wrap: uv
+cstr256:
+  wrap: uv
+cstyl:
+  wrap: uv
+cswdw128:
+  wrap: uv
+cswl128:
+  wrap: uv
+cvceil1:
+  wrap: uv
+cvceil3:
+  wrap: uv
+d2ceil1:
+  wrap: uv
+d2ceil2:
+  wrap: uv
 d2lgdor:
   wrap: u
+dkdorb:
+  wrap: ''
+dknkrf:
+  wrap: uv
+dkwbwl:
+  wrap: uv
+dkwdr:
+  wrap: ''
+dkwle:
+  wrap: v
+dkwmt1:
+  wrap: ''
+dkwre:
+  wrap: v
+dkwrew:
+  wrap: v
+dkwrf:
+  wrap: uv
+dkwsde:
+  wrap: ''
+dkwsmbwl:
+  wrap: uv
+dkwst:
+  wrap: uv
+dkwwn:
+  wrap: uv
+dkwwnde:
+  wrap: ''
 elem-all:
   wrap: ''
+elemair:
+  wrap: ''
+elemerth:
+  wrap: ''
+elemfire:
+  wrap: ''
+elemwatr:
+  wrap: ''
+gbcnt:
+  wrap: uv
+gbdor:
+  wrap: ''
+gbend:
+  wrap: v
+gblft:
+  wrap: v
+gblftw:
+  wrap: ''
+gbrt:
+  wrap: uv
+gbrtw:
+  wrap: ''
+gbsmdr:
+  wrap: ''
+gbwin:
+  wrap: uv
+glass11:
+  wrap: uv
 granite:
   wrap: uv
+gset02:
+  wrap: uv
+gset03:
+  wrap: uv
+gset04:
+  wrap: uv
+gset05:
+  wrap: uv
+gset07:
+  wrap: uv
+gstrle:
+  wrap: ''
+gstrre:
+  wrap: ''
+gstrrf:
+  wrap: uv
+gstrsbw:
+  wrap: uv
+gstrst:
+  wrap: u
+hcbalcwb:
+  wrap: ''
+hcdoor32:
+  wrap: u
+hclgdr:
+  wrap: ''
+hcsmdr:
+  wrap: ''
+hctriw:
+  wrap: u
+hcuniq2:
+  wrap: ''
+hcuniq3:
+  wrap: ''
+hcw1ctr:
+  wrap: uv
+hcw1le:
+  wrap: v
+hcw1leb:
+  wrap: v
+hcw1re:
+  wrap: uv
+hcw1reb:
+  wrap: v
+hcwall:
+  wrap: uv
+hcwindo:
+  wrap: u
 magicpor:
+  wrap: ''
+mercmid:
+  wrap: ''
+mercrich:
   wrap: ''
 mystrya:
   wrap: uv
@@ -117,16 +359,44 @@ orflr1:
   wrap: uv
 pbrdr:
   wrap: ''
+pbrdr1:
+  wrap: ''
 pbrle:
   wrap: v
+pbrlew:
+  wrap: ''
 pbrre:
   wrap: v
+pbrrew:
+  wrap: ''
+pbrsde:
+  wrap: ''
 pbrst:
   wrap: u
 pbrwn:
   wrap: uv
+pbsmwl:
+  wrap: uv
 pbtrm:
   wrap: uv
+pbwal:
+  wrap: uv
+pg128bl:
+  wrap: uv
+plgctr1:
+  wrap: ''
+plgctr1w:
+  wrap: ''
+plgle1:
+  wrap: ''
+plgle1w:
+  wrap: ''
+plgre1:
+  wrap: ''
+plgre1w:
+  wrap: ''
+plgsmdr:
+  wrap: ''
 plruf01:
   wrap: uv
 pxshings:
@@ -139,6 +409,8 @@ pxstrlew:
   wrap: ''
 pxstrre:
   wrap: v
+pxstrrew:
+  wrap: ''
 pxstrst:
   wrap: uv
 pxstrwb:
@@ -153,10 +425,14 @@ rblmt:
   wrap: ''
 rblre:
   wrap: ''
+rblrf:
+  wrap: uv
 rblst:
   wrap: uv
 rblst1:
   wrap: ''
+rh128:
+  wrap: u
 rhctr:
   wrap: uv
 rhctrw:
@@ -169,11 +445,85 @@ rhle:
   wrap: uv
 rhre:
   wrap: v
+rokcsm:
+  wrap: u
+rokdr:
+  wrap: ''
+rokdr2:
+  wrap: ''
+rokend:
+  wrap: ''
+roklft:
+  wrap: ''
+rokrt:
+  wrap: ''
+rokwin:
+  wrap: ''
+roof:
+  wrap: uv
+roof1:
+  wrap: uv
+sdkdorb:
+  wrap: ''
+sdkwbwl:
+  wrap: uv
+sdkwdr:
+  wrap: ''
+sdkwle:
+  wrap: v
+sdkwlew:
+  wrap: v
+sdkwre:
+  wrap: v
+sdkwrew:
+  wrap: v
+sdkwsde:
+  wrap: u
+sdkwst:
+  wrap: uv
+sdkwwn:
+  wrap: uv
+sdkwwn1:
+  wrap: u
+sdkwwnde:
+  wrap: v
 self-all:
   wrap: ''
+selfmind:
+  wrap: ''
+selfsprt:
+  wrap: u
+sgldorb:
+  wrap: ''
+sglstrde:
+  wrap: ''
+sgstrdr:
+  wrap: ''
+sgstrle:
+  wrap: ''
+sgstrlew:
+  wrap: ''
+sgstrre:
+  wrap: u
+sgstrrew:
+  wrap: ''
+sgstrsbw:
+  wrap: uv
+sgstrst:
+  wrap: u
+sgstrwde:
+  wrap: ''
+sgstrwn1:
+  wrap: u
 sidert32:
   wrap: ''
+sign11:
+  wrap: ''
 sign128:
+  wrap: ''
+sign5:
+  wrap: ''
+smalldr:
   wrap: ''
 solid10:
   wrap: uv
@@ -181,6 +531,28 @@ stables:
   wrap: ''
 storemid:
   wrap: ''
+straw:
+  wrap: uv
+strctclm:
+  wrap: ''
+strctr:
+  wrap: uv
+strdr:
+  wrap: ''
+strdr2:
+  wrap: ''
+strle:
+  wrap: v
+strlew:
+  wrap: ''
+strre:
+  wrap: v
+strrew:
+  wrap: ''
+strroof1:
+  wrap: uv
+strwin1:
+  wrap: uv
 t1c2:
   wrap: uv
 t1c3:
@@ -191,11 +563,23 @@ t1d3:
   wrap: u
 t1f1:
   wrap: uv
+t1f2:
+  wrap: uv
+t1f3:
+  wrap: uv
+t1lava:
+  wrap: uv
 t1swbd:
   wrap: ''
 t1swbu:
   wrap: uv
+t1trimb:
+  wrap: uv
 t1w11a:
+  wrap: uv
+t1wl0lg:
+  wrap: uv
+t1wl0sm:
   wrap: uv
 t1wl1cts:
   wrap: u
@@ -235,6 +619,8 @@ tavlgdr:
   wrap: u
 tavmid:
   wrap: ''
+tavpoor2:
+  wrap: ''
 tavre:
   wrap: uv
 tavrf:
@@ -251,7 +637,17 @@ tdoora:
   wrap: uv
 tdoorb:
   wrap: ''
+tdoorc:
+  wrap: ''
+tdoord:
+  wrap: ''
 tdortrim:
+  wrap: uv
+tentdor3:
+  wrap: u
+tentrf3:
+  wrap: u
+tentwal3:
   wrap: uv
 tewd:
   wrap: uv
@@ -295,5 +691,15 @@ training:
   wrap: ''
 trim:
   wrap: uv
+vh1trima:
+  wrap: uv
+vh2trimb:
+  wrap: uv
 wood012:
   wrap: uv
+wood013:
+  wrap: uv
+yindark:
+  wrap: ''
+yinlite:
+  wrap: ''
