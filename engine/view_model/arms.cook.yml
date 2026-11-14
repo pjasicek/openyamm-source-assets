@@ -1,0 +1,4 @@
+# The first-person arms (devdocs/solo_action/README.md): the skin is drawn two-sided on purpose, since the hand shell
+# shows its palm's inside through the thumb's web in a fist. The back face pass tests the bind pose only, so it is
+# skipped here.
+back_faces: keep
